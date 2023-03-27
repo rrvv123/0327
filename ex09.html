@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>글 작성하기</h1>
+    <form action="result.html" method="get">
+        <table>
+            <tr>
+                <td><label for="username"><b>작성자</b></label></td>
+                <td><input type="text" name="text" id="username"></td>
+            </tr>
+            <tr>
+                <td><label for="id"><b>아이디</b></label></td>
+                <td><input type="text" name="text" id="id"></td>
+            </tr>
+            <tr>
+                <td><label for="email"><b>이메일</b></label></td>
+                <td><input type="text" name="text" id="email">@
+                    <select>
+                        <option value="email">gmail.com</option>
+                        <option value="email">naver.com</option>
+                        <option value="email">daum.net</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>휴대폰</b></td>
+                <td>
+                    <select>
+                            <option value="tel">010</option>
+                            <option value="tel">011</option>
+                            <option value="tel">02</option>
+                    </select>-
+                    <input type="tel" name="tel">-
+                    <input type="tel" name="tel">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="header"><b>글제목</b></label></td>
+                <td><input type="text" name="text" id="header"></td>
+            </tr>
+            <tr>
+                <td align="center"><b>내용</b></td>
+                <td><textarea name="content" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr align="center">
+                <td><button type="submit">제출</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
